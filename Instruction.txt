@@ -1,0 +1,17 @@
+This program is designed for analyizing the move ment of fish's fins.
+
+main.cpp is the main progress, which offers a platform to use and control the operating functions. This file was written based on an old test file, so many of the lines are not necessary.
+
+SuperContour.cpp is the kernel file, which defines a class including critical parameters, data and structures and methods.
+This file also defines the methods in this class, which mainly include seceral types:
+
+---1. Basic operating functions.
+	This cluster of functions mainly define the data structure and operation of the class 'SuperContour', they also give the method to write and read the class.
+	
+---2. Basic Contour-feature functions.
+	This cluster of functions mainly calculate the feature of the contour, e.g. curvature, center, central-axis, etc.
+
+---3. Functions for template-matching and fin-tracking
+	This cluster of functions often use the functions above and calculate the fish's position, direction, parameters which can be used to match to the original templates.
+	
+	Another major task of this cluster of functions is to recognize the fin of a fish.
